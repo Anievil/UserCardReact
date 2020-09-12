@@ -1,0 +1,33 @@
+.name, .job, .description, .button{
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.info{
+    background-color: whitesmoke;
+    width: 300px;
+    margin: 15px auto;
+    position: relative;
+    z-index: 0;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name{
+    font-style: italic;
+}
+
+.job{
+    color: rebeccapurple;
+}
+
+.button{
+    margin: 20px auto;
+    background-color: blueviolet;
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+}
